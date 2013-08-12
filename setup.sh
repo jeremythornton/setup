@@ -46,3 +46,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+wget http://fastdl.mongodb.org/osx/mongodb-osx-x86_64-2.4.5.tgz
+tar xzf mongodb-osx-x86_64-2.4.5.tgz
+sudo mv mongodb-osx-x86_64-2.4.5.tgz /usr/local/mongodb
